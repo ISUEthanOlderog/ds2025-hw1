@@ -1,0 +1,11 @@
+---
+title: "Swiss Banknote Plots"
+author: "Ethan Olderog"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(mclust)
+data(banknote)
